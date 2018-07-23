@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50EFC882100800D0087D542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EFC872100800D0087D542 /* AppDelegate.swift */; };
+		B50EFC8A2100800D0087D542 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EFC892100800D0087D542 /* MainScreenViewController.swift */; };
+		B50EFC8D2100800D0087D542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EFC8B2100800D0087D542 /* Main.storyboard */; };
+		B50EFC8F2100800F0087D542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50EFC8E2100800F0087D542 /* Assets.xcassets */; };
+		B50EFC922100800F0087D542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50EFC902100800F0087D542 /* LaunchScreen.storyboard */; };
+		B50EFC9D2100800F0087D542 /* AnketaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EFC9C2100800F0087D542 /* AnketaTests.swift */; };
+		B50EFCA82100800F0087D542 /* AnketaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EFCA72100800F0087D542 /* AnketaUITests.swift */; };
+		B50EFCBA210085460087D542 /* TableViewControllerScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50EFCB9210085460087D542 /* TableViewControllerScreen1.swift */; };
+		B5E08E412105D0FC00B24279 /* TableViewControllerScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E08E402105D0FC00B24279 /* TableViewControllerScreen2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50EFC992100800F0087D542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50EFC7C2100800D0087D542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50EFC832100800D0087D542;
+			remoteInfo = Anketa;
+		};
+		B50EFCA42100800F0087D542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50EFC7C2100800D0087D542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50EFC832100800D0087D542;
+			remoteInfo = Anketa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50EFC842100800D0087D542 /* Anketa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anketa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EFC872100800D0087D542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50EFC892100800D0087D542 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		B50EFC8C2100800D0087D542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50EFC8E2100800F0087D542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50EFC912100800F0087D542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50EFC932100800F0087D542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EFC982100800F0087D542 /* AnketaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnketaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EFC9C2100800F0087D542 /* AnketaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaTests.swift; sourceTree = "<group>"; };
+		B50EFC9E2100800F0087D542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EFCA32100800F0087D542 /* AnketaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnketaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50EFCA72100800F0087D542 /* AnketaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnketaUITests.swift; sourceTree = "<group>"; };
+		B50EFCA92100800F0087D542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50EFCB9210085460087D542 /* TableViewControllerScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerScreen1.swift; sourceTree = "<group>"; };
+		B5E08E402105D0FC00B24279 /* TableViewControllerScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerScreen2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50EFC812100800D0087D542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EFC952100800F0087D542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EFCA02100800F0087D542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50EFC7B2100800D0087D542 = {
+			isa = PBXGroup;
+			children = (
+				B50EFC862100800D0087D542 /* Anketa */,
+				B50EFC9B2100800F0087D542 /* AnketaTests */,
+				B50EFCA62100800F0087D542 /* AnketaUITests */,
+				B50EFC852100800D0087D542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50EFC852100800D0087D542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFC842100800D0087D542 /* Anketa.app */,
+				B50EFC982100800F0087D542 /* AnketaTests.xctest */,
+				B50EFCA32100800F0087D542 /* AnketaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50EFC862100800D0087D542 /* Anketa */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFC872100800D0087D542 /* AppDelegate.swift */,
+				B50EFC892100800D0087D542 /* MainScreenViewController.swift */,
+				B50EFC8B2100800D0087D542 /* Main.storyboard */,
+				B50EFC932100800F0087D542 /* Info.plist */,
+				B50EFCB6210084CE0087D542 /* Screen1 */,
+				B5E08E422105D10200B24279 /* Screen2 */,
+				B50EFCB52100806D0087D542 /* Other */,
+			);
+			path = Anketa;
+			sourceTree = "<group>";
+		};
+		B50EFC9B2100800F0087D542 /* AnketaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFC9C2100800F0087D542 /* AnketaTests.swift */,
+				B50EFC9E2100800F0087D542 /* Info.plist */,
+			);
+			path = AnketaTests;
+			sourceTree = "<group>";
+		};
+		B50EFCA62100800F0087D542 /* AnketaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFCA72100800F0087D542 /* AnketaUITests.swift */,
+				B50EFCA92100800F0087D542 /* Info.plist */,
+			);
+			path = AnketaUITests;
+			sourceTree = "<group>";
+		};
+		B50EFCB52100806D0087D542 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFC8E2100800F0087D542 /* Assets.xcassets */,
+				B50EFC902100800F0087D542 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B50EFCB6210084CE0087D542 /* Screen1 */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFCB9210085460087D542 /* TableViewControllerScreen1.swift */,
+			);
+			path = Screen1;
+			sourceTree = "<group>";
+		};
+		B5E08E422105D10200B24279 /* Screen2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5E08E402105D0FC00B24279 /* TableViewControllerScreen2.swift */,
+			);
+			path = Screen2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50EFC832100800D0087D542 /* Anketa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50EFCAC2100800F0087D542 /* Build configuration list for PBXNativeTarget "Anketa" */;
+			buildPhases = (
+				B50EFC802100800D0087D542 /* Sources */,
+				B50EFC812100800D0087D542 /* Frameworks */,
+				B50EFC822100800D0087D542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anketa;
+			productName = Anketa;
+			productReference = B50EFC842100800D0087D542 /* Anketa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50EFC972100800F0087D542 /* AnketaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50EFCAF2100800F0087D542 /* Build configuration list for PBXNativeTarget "AnketaTests" */;
+			buildPhases = (
+				B50EFC942100800F0087D542 /* Sources */,
+				B50EFC952100800F0087D542 /* Frameworks */,
+				B50EFC962100800F0087D542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50EFC9A2100800F0087D542 /* PBXTargetDependency */,
+			);
+			name = AnketaTests;
+			productName = AnketaTests;
+			productReference = B50EFC982100800F0087D542 /* AnketaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B50EFCA22100800F0087D542 /* AnketaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50EFCB22100800F0087D542 /* Build configuration list for PBXNativeTarget "AnketaUITests" */;
+			buildPhases = (
+				B50EFC9F2100800F0087D542 /* Sources */,
+				B50EFCA02100800F0087D542 /* Frameworks */,
+				B50EFCA12100800F0087D542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50EFCA52100800F0087D542 /* PBXTargetDependency */,
+			);
+			name = AnketaUITests;
+			productName = AnketaUITests;
+			productReference = B50EFCA32100800F0087D542 /* AnketaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50EFC7C2100800D0087D542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = maksim;
+				TargetAttributes = {
+					B50EFC832100800D0087D542 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B50EFC972100800F0087D542 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B50EFC832100800D0087D542;
+					};
+					B50EFCA22100800F0087D542 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B50EFC832100800D0087D542;
+					};
+				};
+			};
+			buildConfigurationList = B50EFC7F2100800D0087D542 /* Build configuration list for PBXProject "Anketa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50EFC7B2100800D0087D542;
+			productRefGroup = B50EFC852100800D0087D542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50EFC832100800D0087D542 /* Anketa */,
+				B50EFC972100800F0087D542 /* AnketaTests */,
+				B50EFCA22100800F0087D542 /* AnketaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50EFC822100800D0087D542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EFC922100800F0087D542 /* LaunchScreen.storyboard in Resources */,
+				B50EFC8F2100800F0087D542 /* Assets.xcassets in Resources */,
+				B50EFC8D2100800D0087D542 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EFC962100800F0087D542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EFCA12100800F0087D542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50EFC802100800D0087D542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E08E412105D0FC00B24279 /* TableViewControllerScreen2.swift in Sources */,
+				B50EFC8A2100800D0087D542 /* MainScreenViewController.swift in Sources */,
+				B50EFCBA210085460087D542 /* TableViewControllerScreen1.swift in Sources */,
+				B50EFC882100800D0087D542 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EFC942100800F0087D542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EFC9D2100800F0087D542 /* AnketaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50EFC9F2100800F0087D542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50EFCA82100800F0087D542 /* AnketaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50EFC9A2100800F0087D542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50EFC832100800D0087D542 /* Anketa */;
+			targetProxy = B50EFC992100800F0087D542 /* PBXContainerItemProxy */;
+		};
+		B50EFCA52100800F0087D542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50EFC832100800D0087D542 /* Anketa */;
+			targetProxy = B50EFCA42100800F0087D542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B50EFC8B2100800D0087D542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50EFC8C2100800D0087D542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50EFC902100800F0087D542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50EFC912100800F0087D542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50EFCAA2100800F0087D542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50EFCAB2100800F0087D542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50EFCAD2100800F0087D542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFDFCZZ25R;
+				INFOPLIST_FILE = Anketa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anketa.Anketa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50EFCAE2100800F0087D542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFDFCZZ25R;
+				INFOPLIST_FILE = Anketa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anketa.Anketa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B50EFCB02100800F0087D542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFDFCZZ25R;
+				INFOPLIST_FILE = AnketaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anket.AnketaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anketa.app/Anketa";
+			};
+			name = Debug;
+		};
+		B50EFCB12100800F0087D542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFDFCZZ25R;
+				INFOPLIST_FILE = AnketaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anket.AnketaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anketa.app/Anketa";
+			};
+			name = Release;
+		};
+		B50EFCB32100800F0087D542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFDFCZZ25R;
+				INFOPLIST_FILE = AnketaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anket.AnketaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Anketa;
+			};
+			name = Debug;
+		};
+		B50EFCB42100800F0087D542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFDFCZZ25R;
+				INFOPLIST_FILE = AnketaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anket.AnketaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Anketa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50EFC7F2100800D0087D542 /* Build configuration list for PBXProject "Anketa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EFCAA2100800F0087D542 /* Debug */,
+				B50EFCAB2100800F0087D542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50EFCAC2100800F0087D542 /* Build configuration list for PBXNativeTarget "Anketa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EFCAD2100800F0087D542 /* Debug */,
+				B50EFCAE2100800F0087D542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50EFCAF2100800F0087D542 /* Build configuration list for PBXNativeTarget "AnketaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EFCB02100800F0087D542 /* Debug */,
+				B50EFCB12100800F0087D542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50EFCB22100800F0087D542 /* Build configuration list for PBXNativeTarget "AnketaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EFCB32100800F0087D542 /* Debug */,
+				B50EFCB42100800F0087D542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50EFC7C2100800D0087D542 /* Project object */;
+}
